@@ -2,8 +2,8 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Your Sentinel Hub credentials
-CLIENT_ID = '28f8c47d-8d55-4151-89bc-568cb2ae826d'
-SECRET_KEY = 'zGY8KS2LxWAJtXEGAWlyPLdilKSrcoLp'
+CLIENT_ID = 'Your SentinelHub ClientID'
+SECRET_KEY = 'Your Sentinelhub Secret_key'
 
 # Define the API endpoint
 API_URL = 'https://services.sentinel-hub.com/oauth/token'
