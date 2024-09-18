@@ -8,10 +8,10 @@ import webbrowser
 import os
 
 # Twilio configuration
-account_sid = 'ACe0c63be35c054ecd0aa1801db49cf501'
-auth_token = 'ad96a49e9661120b254d297664ea8ba1'
-twilio_number = '+18306421254'
-recipient_number = '+919344021076'
+account_sid = 'Your account_sid'
+auth_token = 'Your auth_token'
+twilio_number = 'Twillio phone number'
+recipient_number = 'Recipient phone number'
 
 # Define bounding box coordinates for the Mumbai region
 longitude_min = 72.6
@@ -89,8 +89,8 @@ payload = {
 
 # Function to send email alerts
 def send_email_alert(subject, body, attachment):
-    yag = yagmail.SMTP("idurairaj2002@gmail.com", "qole xyfm ndsu zhpx")
-    yag.send(to="vsudhareshan@gmail.com", subject=subject, contents=body, attachments=attachment)
+    yag = yagmail.SMTP("mail_id", "App password")
+    yag.send(to="recipient mail_id", subject=subject, contents=body, attachments=attachment)
     print("Email sent!")
 
 # Function to send SMS alerts
