@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 bash
 Copy code
-git clone https://github.com/DR-skcet/BreadcrumbsOil-spill-Detection-using-AIS-Data-and-Satellite-Image.git
+git clone https://github.com/DR-skcet/Oil-spill-Detection-using-AIS-Data-and-Satellite-Image.git
 cd oil-spill-detection
 2. Install required packages:
 bash
